@@ -7,9 +7,9 @@ import java.util.List;
 
 public interface CounterService {
 
-  Optional<Counter> getCounter(Integer id);
+    Optional<Counter> getCounter(Integer id);
 
-  void upsertCount(Counter counter);
+    void upsertCount(Counter counter);
 
-  void clearCount(Integer id);
+    void clearCount(Integer id);
 }
